@@ -11,11 +11,11 @@
 
     <!-- Bootstrap core CSS -->
     <link href="dist/css/bootstrap.min.css" rel="stylesheet">
-    <link rel="stylesheet" href="5_Youtube Player/style.css">
+    <link rel="stylesheet" href="1_RandomSelector/style.css">
       
     <!-- Custom styles for this template -->
     <link href="carousel.css" rel="stylesheet">
-    <link href="5_Youtube Player/style.css" rel="stylesheet">
+    <link href="6_about me/style.css" rel="stylesheet">
   </head>
   <body>
 
@@ -30,7 +30,6 @@
             <li class="nav-item active">
               <a class="nav-link" href="index.html">Home </a>
             </li>
-            
             <li class="nav-item">
               <a class="nav-link" href="RandomSelect.html">RandomSelect </a>
             </li>
@@ -48,13 +47,16 @@
             </li>
               
             <li class="nav-item">
-              <a class="nav-link" href="#">Youtube Player <span class="sr-only">(current)</span></a>
-            </li>
-            
-            <li class="nav-item">
-              <a class="nav-link" href="About Me.html">About Me </a>
+              <a class="nav-link" href="Youtube Player.html">Youtube Player </a>
             </li>
               
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
+            </li>
+            <!--
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#">Disabled</a>
+            </li>  -->
           </ul>
           <form class="form-inline mt-2 mt-md-0">
             <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
@@ -64,17 +66,21 @@
       </nav>
     </header>
 
+    <br>
+    <a href="https://www.facebook.com/profile.php?id=100002188099746"><img src="6_about me/Me.jpg" alt="MyProfile" class="rounded-circle" width="140" height="140" ></a>
+    <br>
+    <h4>林軒正</h4>
+    <span>
+      e-mail:<a href="Mailto:zx1234005@gmail.com"> zx1234005@gmail.com</a>
+    </span>
+    
+      
+      
     <main role="main">
 
       <div class="container marketing">
         <hr class="featurette-divider">
           
-          <h1>Youtube 心情點唱機</h1>
-          <h2></h2>
-          <div id="player"></div>
-          <br>
-          <input type="button" id="playButton" value="Play">
-        
         <hr class="featurette-divider">
         <!-- /END THE FEATURETTES -->
       </div><!-- /.container -->
@@ -95,8 +101,6 @@
     <script src="dist/js/bootstrap.min.js"></script>
     <!-- Just to make our placeholder images work. Don't actually copy the next line! -->
     <script src="assets/js/vendor/holder.min.js"></script>
-    <script src="https://www.youtube.com/iframe_api"></script>
-    <script src="5_Youtube Player/playList.js"></script>
-    <script src="5_Youtube Player/main.js"></script>
+    <script src="1_RandomSelector/main.js"></script>
   </body>
 </html>

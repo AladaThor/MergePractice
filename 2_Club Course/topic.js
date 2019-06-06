@@ -1,16 +1,14 @@
 var topic = [
     "尚未開學",
-    "國定假日",
-    "環境準備",
-    "隨機性",
-    "重複性",
-    "條件判斷"
+    "課程介紹",
+    "不上課",
+    "不上課",
+    "亂數選擇、自動排課",
+    "不上課",
+    "心理測驗"
 ];
 
 var startDate = new Date();
-var start = document.getElementById("start");
-var dd = start.getDate();
-var mm = start.getMonth()+1;
 function setMonthAndDay(startMonth, startDay){
     startDate.setMonth(startMonth-1, startDay);
     startDate.setHours(0);
@@ -18,4 +16,4 @@ function setMonthAndDay(startMonth, startDay){
     startDate.setSeconds(0);
 }
 
-setMonthAndDay(mm,dd);
+setMonthAndDay(4,21);
