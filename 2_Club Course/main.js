@@ -1,13 +1,14 @@
 $(document).ready(function Schedule() {
     $("#courseTable").append("<tr><th>場次</th><th>時間</th><th>主題</th></tr>");
     
+    function workday(){
     var topicCount = topic.length;
     
     var secondUnit = 1000;
     var minuteUnit = secondUnit * 60;
     var hourUnit = minuteUnit * 60;
     var dayUnit = hourUnit * 24;
-    function workday(){
+    
         for(var x=0; x < topicCount; ++x){
             if(topic[x]!="不上課"){
                 $("#courseTable").append("<tr style=\"background-color: lightblue\">");
@@ -45,18 +46,17 @@ $(document).ready(function Schedule() {
         else
             alert("invalid input");
     })
-    /*$("#stE").click(function(){
-        var nE = document.getElementById("newEvnt").val().text();
-        topic.push(nE);
-        if(nE.length!=0){
-            
+    $("#stE").click(function(){
+        
+        if($("#newEvnt").val()!=0){
+            topic.push($("#newEvnt").val());
             $("#courseTable").empty();
             $("#courseTable").append("<tr><th>場次</th><th>時間</th><th>主題</th></tr>");
             workday();
         }
         else
             alert("invalid input");
-    })*/
+    })
     
 });
 
