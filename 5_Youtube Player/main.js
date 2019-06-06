@@ -30,7 +30,8 @@ function onPlayerReady(event){
 }
 
 function onPlayerStateChange(event){
-    if(event.data == 0){
+    if(event.data == 0 && 
+       (Math.floor(player.getCurrentTime())==playTime[currentPlay][1])){
         if(currentPlay < playList.length-1){
             ++currentPlay;
             player.cueVideoById({
