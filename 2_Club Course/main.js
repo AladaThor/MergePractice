@@ -10,7 +10,7 @@ $(document).ready(function Schedule() {
     var dayUnit = hourUnit * 24;
     
         for(var x=0; x < topicCount; ++x){
-            if(topic[x]!="不上課"){
+            if(topic[x]!="休息"){
                 $("#courseTable").append("<tr style=\"background-color: lightblue\">");
                 $("#courseTable").append("<td style=\"background-color: lightblue\">"+(x+1)+"</td>");
                 $("#courseTable").append("<td style=\"background-color: lightblue\">"+

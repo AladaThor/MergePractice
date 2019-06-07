@@ -1,9 +1,9 @@
 var pictures = [
-    "https://castle.womany.net/images/content/pictures/543/content_medium_5355787611__1_.jpg",
-    "https://tokyo-kitchen.icook.network/uploads/recipe/cover/180386/large_5775fef312fbf3e3.jpg",
-    "https://pic.pimg.tw/twghome/1428017974-1054004439_m.jpg",
-    "https://storage.googleapis.com/www-cw-com-tw/article/201811/article-5be2a45004954.jpg",
-    "https://images.chinatimes.com/newsphoto/2018-03-18/900/20180318002941.jpg"
+    "http://n.sinaimg.cn/ent/transform/w630h630/20171207/wO9t-fypnsin7083398.png",
+    "https://hk.portal-pokemon.com/play/resources/pokedex/img/pm/1fab9d9b86c9071e3f10c14b7869e3ec338f1429.png",
+    "https://hk.portal-pokemon.com/play/resources/pokedex/img/pm/5794f0251b1180998d72d1f8568239620ff5279c.png",
+    "https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/d0ee81f16175c97770192fb691fdda8da1f4f349.png",
+    "https://tw.portal-pokemon.com/play/resources/pokedex/img/pm/cf47f9fac4ed3037ff2a8ea83204e32aff8fb5f3.png"
 ]
 
 $(document).ready(function() {

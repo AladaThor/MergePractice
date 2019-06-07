@@ -1,11 +1,11 @@
 var topic = [
-    "尚未開學",
-    "課程介紹",
-    "不上課",
-    "不上課",
-    "亂數選擇、自動排課",
-    "不上課",
-    "心理測驗"
+    "Pokémon Let's Go (上)",
+    "休息",
+    "Pokémon Let's Go (下)",
+    "休息",
+    "Pokémon 劍盾 (一周目上)",
+    "休息",
+    "Pokémon 劍盾 (一周目上)"
 ];
 
 var startDate = new Date();
